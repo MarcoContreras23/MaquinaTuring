@@ -1,3 +1,4 @@
+import MaquinaTuring
 class Ventana:
 
     def entradas(self):
@@ -9,5 +10,7 @@ class Ventana:
         print("Ingrese 1 0 0 para restar")
         print("Ingrese 1 0 1 para inicio repetir")
         print("Ingrese 1 1 0 para fin repetir")
-        print("Ingrese 1 1 1 para FIN de programa")
+        print("Ingre    se 1 1 1 para FIN de programa")
         valor = input("Ingrese el valor")
+        self.escribirPrograma(valor)
+        
