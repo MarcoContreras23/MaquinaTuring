@@ -84,7 +84,7 @@ class GUI:
 
         #ingresado
         textEntre = font.render(str(textEntrada), True, BLACK)
-        screen.blit(textEntre, (410 ,410,10,10))
+        screen.blit(textEntre, (30 ,10,10,10))
 
         ingresar = font.render(str(maquina.getValor("")), True, BLACK)
         screen.blit(ingresar, (450 ,450,10,10))
